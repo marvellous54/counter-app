@@ -1,0 +1,102 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+img, picture, svg, video {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+    font-family: calibri;
+}
+
+.input-container {
+    position: absolute;
+    background-color: rgb(30, 144, 250);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    padding: 20px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-container p {
+    margin: 0 0 15px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.input-container input {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.input-container button {
+    padding: 5px;
+    border-radius: 37.5px;
+    border: none;
+    margin: 0 0 0 7.5px;
+    width: 75px;
+}
+
+.counter-container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 174, 255);
+    width: 100%;
+    margin: 0 0 10px auto;
+}
+
+.counter-btns-container > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.counter-btns-container i {
+    font-size: 20px;
+}
+
+.counter-btns-container p {
+    display: none;
+}
+
+.count-el, 
+.record-el {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.plus-icon {
+    color: green;
+}
+
+.minus-icon {
+    color: red;
+}
+
+.save-icon {
+    color: blue;
+}
